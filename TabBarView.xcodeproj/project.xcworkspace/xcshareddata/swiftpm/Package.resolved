@@ -1,0 +1,142 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Charts",
+        "repositoryURL": "https://github.com/danielgindi/Charts.git",
+        "state": {
+          "branch": null,
+          "revision": "8d134a78bb2cb9e7a0f05ecbd5880bb05cd02863",
+          "version": "4.0.1"
+        }
+      },
+      {
+        "package": "SharedKit",
+        "repositoryURL": "https://github.com/HaulHub/ios_shared.git",
+        "state": {
+          "branch": null,
+          "revision": "f974477cc7d447cd6e21fea625dd102b7c2bb777",
+          "version": "4.0.0"
+        }
+      },
+      {
+        "package": "KeychainAccess",
+        "repositoryURL": "https://github.com/kishikawakatsumi/KeychainAccess",
+        "state": {
+          "branch": null,
+          "revision": "84e546727d66f1adc5439debad16270d0fdd04e7",
+          "version": "4.2.2"
+        }
+      },
+      {
+        "package": "Networking",
+        "repositoryURL": "https://github.com/mleavy/Networking",
+        "state": {
+          "branch": null,
+          "revision": "0237db48fbe0a945b90c12bd1a00545762cbd9d7",
+          "version": "4.1.7"
+        }
+      },
+      {
+        "package": "PhoneNumberKit",
+        "repositoryURL": "https://github.com/marmelroy/PhoneNumberKit",
+        "state": {
+          "branch": null,
+          "revision": "1ef0431b971f69c48ca5eb4cdba07f2c5da54c35",
+          "version": "3.3.3"
+        }
+      },
+      {
+        "package": "Pulley",
+        "repositoryURL": "https://github.com/52inc/Pulley",
+        "state": {
+          "branch": null,
+          "revision": "355bb7c53d4d430334422ad05a97fbe43ce326db",
+          "version": "2.9.1"
+        }
+      },
+      {
+        "package": "Reachability",
+        "repositoryURL": "https://github.com/ashleymills/Reachability.swift",
+        "state": {
+          "branch": null,
+          "revision": "c01bbdf2d633cf049ae1ed1a68a2020a8bda32e2",
+          "version": "5.1.0"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa",
+        "state": {
+          "branch": null,
+          "revision": "c619512ed75937ed3425df9343dc592f39bd8a43",
+          "version": "10.15.0"
+        }
+      },
+      {
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "23f60515a00f076a9e3f2dc672fe1ae07601ee90",
+          "version": "11.4.1"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift",
+        "state": {
+          "branch": null,
+          "revision": "7c17a6ccca06b5c107cfa4284e634562ddaf5951",
+          "version": "6.2.0"
+        }
+      },
+      {
+        "package": "SquidKit",
+        "repositoryURL": "https://github.com/SquidKit/SquidKit.git",
+        "state": {
+          "branch": null,
+          "revision": "48232eb1841d7dfcbe76dc4cb647016cb9091e79",
+          "version": "5.2.0"
+        }
+      },
+      {
+        "package": "SVProgressHUD",
+        "repositoryURL": "https://github.com/mleavy/SVProgressHUD",
+        "state": {
+          "branch": null,
+          "revision": "e344f4c7352e087d16a1c11f6c4eed0a61b9afc3",
+          "version": "2.2.91"
+        }
+      },
+      {
+        "package": "swift-algorithms",
+        "repositoryURL": "https://github.com/apple/swift-algorithms",
+        "state": {
+          "branch": null,
+          "revision": "2327673b0e9c7e90e6b1826376526ec3627210e4",
+          "version": "0.2.1"
+        }
+      },
+      {
+        "package": "swift-numerics",
+        "repositoryURL": "https://github.com/apple/swift-numerics",
+        "state": {
+          "branch": null,
+          "revision": "6583ac70c326c3ee080c1d42d9ca3361dca816cd",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "Tentacles",
+        "repositoryURL": "https://github.com/SquidKit/Tentacles.git",
+        "state": {
+          "branch": null,
+          "revision": "dc5e71f9f23f426735ef973911bca178828709ea",
+          "version": "2.2.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
