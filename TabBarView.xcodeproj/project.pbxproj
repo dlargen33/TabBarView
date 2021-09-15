@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,11 @@
 		C1004EE726EC2FB0002E715E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1004EE526EC2FB0002E715E /* Main.storyboard */; };
 		C1004EE926EC2FB1002E715E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1004EE826EC2FB1002E715E /* Assets.xcassets */; };
 		C1004EEC26EC2FB1002E715E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1004EEA26EC2FB1002E715E /* LaunchScreen.storyboard */; };
+		C102079D26EFDBC3004AD390 /* HHTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102079C26EFDBC3004AD390 /* HHTabBarViewController.swift */; };
+		C10207A026F0006E004AD390 /* SharedKit in Frameworks */ = {isa = PBXBuildFile; productRef = C102079F26F0006E004AD390 /* SharedKit */; };
+		C10207A226F01B1C004AD390 /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10207A126F01B1C004AD390 /* OrangeViewController.swift */; };
+		C10207A426F01B37004AD390 /* TealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10207A326F01B37004AD390 /* TealViewController.swift */; };
+		C1C4AD6726ED6AC200B23383 /* HHTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C4AD6626ED6AC200B23383 /* HHTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,10 @@
 		C1004EE826EC2FB1002E715E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1004EEB26EC2FB1002E715E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1004EED26EC2FB1002E715E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C102079C26EFDBC3004AD390 /* HHTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHTabBarViewController.swift; sourceTree = "<group>"; };
+		C10207A126F01B1C004AD390 /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
+		C10207A326F01B37004AD390 /* TealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TealViewController.swift; sourceTree = "<group>"; };
+		C1C4AD6626ED6AC200B23383 /* HHTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HHTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10207A026F0006E004AD390 /* SharedKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +73,10 @@
 				C1004EE826EC2FB1002E715E /* Assets.xcassets */,
 				C1004EEA26EC2FB1002E715E /* LaunchScreen.storyboard */,
 				C1004EED26EC2FB1002E715E /* Info.plist */,
+				C1C4AD6626ED6AC200B23383 /* HHTabBarView.swift */,
+				C102079C26EFDBC3004AD390 /* HHTabBarViewController.swift */,
+				C10207A126F01B1C004AD390 /* OrangeViewController.swift */,
+				C10207A326F01B37004AD390 /* TealViewController.swift */,
 			);
 			path = TabBarView;
 			sourceTree = "<group>";
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = TabBarView;
+			packageProductDependencies = (
+				C102079F26F0006E004AD390 /* SharedKit */,
+			);
 			productName = TabBarView;
 			productReference = C1004EDC26EC2FB0002E715E /* TabBarView.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +127,9 @@
 				Base,
 			);
 			mainGroup = C1004ED326EC2FB0002E715E;
+			packageReferences = (
+				C102079E26F0006E004AD390 /* XCRemoteSwiftPackageReference "ios_shared" */,
+			);
 			productRefGroup = C1004EDD26EC2FB0002E715E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C102079D26EFDBC3004AD390 /* HHTabBarViewController.swift in Sources */,
+				C1C4AD6726ED6AC200B23383 /* HHTabBarView.swift in Sources */,
+				C10207A226F01B1C004AD390 /* OrangeViewController.swift in Sources */,
 				C1004EE426EC2FB0002E715E /* ViewController.swift in Sources */,
 				C1004EE026EC2FB0002E715E /* AppDelegate.swift in Sources */,
+				C10207A426F01B37004AD390 /* TealViewController.swift in Sources */,
 				C1004EE226EC2FB0002E715E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C102079E26F0006E004AD390 /* XCRemoteSwiftPackageReference "ios_shared" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HaulHub/ios_shared.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C102079F26F0006E004AD390 /* SharedKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C102079E26F0006E004AD390 /* XCRemoteSwiftPackageReference "ios_shared" */;
+			productName = SharedKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C1004ED426EC2FB0002E715E /* Project object */;
 }
